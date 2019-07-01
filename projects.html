@@ -15,7 +15,7 @@
 <p>filler</p>
 <p>filler</p>
 <a href="https://gamejolt.com/games/FNAFR/378506">
-  <img src = "fnaf1.png" style ="float: left;">
+  <img onmouseover="fnafr(this)" onmouseout="fnafrno(this)" src = "fnaf1.png" style ="float: left;">
 </a> <img src = "fnaf2.png" style ="float: right;"> <img src = "fnaf3.png" style ="float: left;"> <img src = "fnaf4.png" style ="float: right;"> <img src = "chap1.png" style ="float: left;"> <img src = "chap2.png" style ="float: right;">
 <img src = "fnafo.png" style = "display: block; margin: 0 auto;">
 <p>filler</p>
@@ -35,7 +35,13 @@ function gobackbroke(x) {
   x.src = "go back broke.png"
 }
 
+function fnafr(x) {
+  x.src = "fnaf1glow.png"
+}
 
+function fnafrno(x) {
+  x.src = "fnaf1.png"
+}
 </script>
 
 </body>
